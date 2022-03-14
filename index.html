@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Q-logo.png" type="image/x-icon">
+</head>
+<body>
+    <form action="process.php" method="POST" enctype="application/x-www-form-urlencoded">
+        <div class="container">
+            <div class="loginbox">
+                <div>
+                <h1><img src="img/account-login.png" alt="login icon" width="30" id="loginicon">Login</h1>
+                </div>
+                <br>
+                <div class="username">
+                    <input type="text" name="username" id="username" autocomplete="off" required placeholder="Username">
+                </div>
+                <br>
+                <div class="password">
+                    <input type="text" name="password" id="password" autocomplete="off" required placeholder="Password">
+                </div>
+                <br>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="cb1">
+                    <label for="cb1">Remember Me</label> 
+                </div>
+                <br>
+                <div>
+                    <input type="submit" name="submit" value="LOGIN" class="loginbtn">
+                </div>
+                <br>
+                <div class="logocontainer">
+                    <img src="img/MIS-logo.png" alt="MIS Logo" id="MIS">
+                </div>
+                <br>
+                <div class="qlogocontainer">
+                    <img src="img/Q-bg.png" alt="Q-logo" width="100" id="MIS">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
